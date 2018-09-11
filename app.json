@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "sdkVersion": "28.0.0",
+    "name": "Music Festival Mobile",
+    "slug": "music-festival-mobile",
+    "version": "0.1.0",
+    "description": "This APP is the mobile frontend for Music Festival project.\n\nPlease check github repositories:\nhttps://github.com/pjbelo\nfor backend app (Rails)\nand frontend mobile app (React Native / Expo).\n   \nBackend Demo is live at https://music-fest.herokuapp.com/\n  \nFrontend Expo project at: https://expo.io/@pjbelo/music-festival-mobile\n  \nMusic Festival Project is developed by Paulo Belo.\nHope you enjoy :-)\n   \n©MIT\n",
+    "githubUrl": "https://github.com/pjbelo"
+  }
+}
