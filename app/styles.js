@@ -2,12 +2,13 @@
 import { StyleSheet } from 'react-native';
 
 const FONT_SIZE_NORMAL = 18;
+
 const COLOR_1 = 'black';
 const COLOR_2 = 'rgb(253, 235, 52)';  // yellow	
 const COLOR_3 = 'rgb(234, 91, 50)';   // dark orange
-const COLOR_4 = 'rgb(248, 179, 70)'; // light orange
-const COLOR_5 = 'rgb(36, 180, 224)'; // light blue
-const COLOR_6 = 'rgb(142, 189, 49)'; // green
+const COLOR_4 = 'rgb(248, 179, 70)';  // light orange
+const COLOR_5 = 'rgb(36, 180, 224)';  // light blue
+const COLOR_6 = 'rgb(142, 189, 49)';  // green
 
 export default StyleSheet.create({
 
@@ -17,23 +18,11 @@ export default StyleSheet.create({
     marginBottom: 0
   },
 
-  container2: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'white'
-  },
   container3: {
     flex: 1,
     marginTop: 10,
     marginBottom: 20,
     padding: 10,
-  },
-
-  MainContainer: {
-    flex: 1,
-    padding: 10,
-    justifyContent: 'center',
-    alignItems: 'center',
   },
 
   Header1: {
@@ -47,24 +36,10 @@ export default StyleSheet.create({
   HeaderText1:
   {
     fontSize: 18,
-    color: '#000',
-    textAlign: 'center'
-  },
-
-  HeaderText2:
-  {
-    fontSize: 18,
     fontWeight: 'bold',
     color: '#000',
     textAlign: 'left',
     marginBottom: 10,
-  },
-
-  ImageStyle:
-  {
-    resizeMode: 'cover',
-    width: '50%',
-    height: '50%'
   },
 
   TextStyle:
@@ -108,15 +83,6 @@ export default StyleSheet.create({
     fontFamily: 'Verdana',
     fontSize: FONT_SIZE_NORMAL,
     color: COLOR_3,
-  },
-
-
-
-  h2text: {
-    marginTop: 10,
-    fontFamily: 'Helvetica',
-    fontSize: 36,
-    fontWeight: 'bold'
   },
 
   flatview: {

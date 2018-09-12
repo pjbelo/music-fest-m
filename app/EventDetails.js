@@ -33,7 +33,7 @@ export default class EventDetails extends React.Component {
 
           <Text style={[styles.TextStyle, styles.MB]}>Time:{' '}{event_time}</Text>
 
-          <Text style={styles.HeaderText2}>{this.props.navigation.state.params.item.title}</Text>
+          <Text style={styles.HeaderText1}>{this.props.navigation.state.params.item.title}</Text>
 
           { this.props.navigation.state.params.item.description !== null &&
           <Text style={[styles.TextStyle, styles.MB]}>{this.props.navigation.state.params.item.description}</Text>
@@ -41,7 +41,7 @@ export default class EventDetails extends React.Component {
 
           <GetImage image_uri={this.props.navigation.state.params.item.band_imagePath.url} />
 
-          <Text style={styles.HeaderText2}>{this.props.navigation.state.params.item.band_name}</Text>
+          <Text style={styles.HeaderText1}>{this.props.navigation.state.params.item.band_name}</Text>
 
           { this.props.navigation.state.params.item.band_description !== null &&
           <Text style={[styles.TextStyle, styles.MB]}>{this.props.navigation.state.params.item.band_description}</Text>
@@ -52,7 +52,7 @@ export default class EventDetails extends React.Component {
             <Text style={styles.TextStyle}>{' '}{this.props.navigation.state.params.item.type_name}</Text>
           </View>
 
-          <Text style={styles.HeaderText2}>Venue:{' '}{this.props.navigation.state.params.item.venue_name}</Text>
+          <Text style={styles.HeaderText1}>Venue:{' '}{this.props.navigation.state.params.item.venue_name}</Text>
 
           { this.props.navigation.state.params.item.venue_description !== null &&
           <Text style={[styles.TextStyle, styles.MB]}>{this.props.navigation.state.params.item.venue_description}</Text>

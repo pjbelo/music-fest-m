@@ -19,7 +19,7 @@ export default class BandDetails extends React.Component {
       <ScrollView>
         <View style={styles.container3}>
           <GetImage image_uri={this.props.navigation.state.params.item.imagePath.url} />
-          <Text style={[styles.HeaderText2, styles.MB]}>{this.props.navigation.state.params.item.name}</Text>
+          <Text style={[styles.HeaderText1, styles.MB]}>{this.props.navigation.state.params.item.name}</Text>
           <Text style={[styles.TextStyle, styles.MB]}>{this.props.navigation.state.params.item.description}</Text>
           <View style={{flexDirection:"row"}}>
             <Text style={styles.Title1}>Artistic director:</Text>
