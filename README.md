@@ -1,5 +1,9 @@
 # Music Festival Mobile
 
+
+![Music Festival Mobile](music-fest-m.gif "Music Festival Mobile")
+
+
 React Native / Expo Project
 
 
