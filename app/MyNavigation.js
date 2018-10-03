@@ -11,6 +11,7 @@ import BandsList from './BandsList'
 import BandDetails from './BandDetails'
 import InfoList from './InfoList'
 import InfoDetails from './InfoDetails'
+import MyMap from './MyMap'
 
 const HEADER_FONT_SIZE = 22;
 const HEADER_TINT_COLOR = 'white';
@@ -22,6 +23,7 @@ const EventsStack = createStackNavigator(
   {
     EventsList: EventsList,
     EventDetails: EventDetails,
+    EventMap: MyMap,
   },
   {
     initialRouteName: 'EventsList',

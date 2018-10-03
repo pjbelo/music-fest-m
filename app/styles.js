@@ -61,6 +61,10 @@ export default StyleSheet.create({
     marginBottom: 10,
   },
 
+  button1: {
+    backgroundColor: COLOR_5,
+  },
+
   eventDate: {
     fontFamily: 'Verdana',
     fontSize: FONT_SIZE_NORMAL,

@@ -1,5 +1,5 @@
 import React from 'react';
-import { NativeModules, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { NativeModules, ScrollView, StyleSheet, Text, View, Button, Alert } from 'react-native';
 
 
 import styles from './styles'
@@ -63,10 +63,22 @@ export default class EventDetails extends React.Component {
           <Text style={[styles.TextStyle, styles.MB]}>{this.props.navigation.state.params.item.venue_address}</Text>
           }
 
-          <View style={{flexDirection:"row"}}>
+          <View style={{flexDirection: "row", paddingBottom: 10}}>
             <Text style={styles.Title1}>City:</Text>
             <Text style={styles.TextStyle}>{' '}{this.props.navigation.state.params.item.city_name}</Text>
           </View>
+
+          <View style={styles.button1}>
+            <Button
+              onPress={() => {
+                data = this.props.navigation.state.params.item;
+                this.props.navigation.navigate('EventMap',{data})
+              }}
+              title="Map"
+              color="white"
+            />
+          </View>
+
         </View>
       </ScrollView>
     );
